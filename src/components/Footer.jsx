@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo_red.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faTwitter, faInstagram, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF, faInstagram, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 
 const Footer = () => {
@@ -53,15 +53,13 @@ const Footer = () => {
               <FontAwesomeIcon icon={faGithub} />
             </a>
 
-            <a href="#" className="hover:text-pink-500">
+            <a href="https://www.instagram.com/ravi_patel_0052/" className="hover:text-pink-500">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
-            <a href="#" className="hover:text-blue-500">
+            <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=100010923798968" className="hover:text-blue-500">
               <FontAwesomeIcon icon={faFacebookF} />
             </a>
-            <a href="#" className="hover:text-blue-400">
-              <FontAwesomeIcon icon={faTwitter} />
-            </a>
+            
           </div>
         </div>
       </div>
