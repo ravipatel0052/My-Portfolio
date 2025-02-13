@@ -49,14 +49,21 @@ const Footer = () => {
             <a href="https://github.com/ravipatel0052" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="hover:text-blue-600 text-xl">
+              className="hover:text-white-600 text-xl">
               <FontAwesomeIcon icon={faGithub} />
             </a>
 
-            <a href="https://www.instagram.com/ravi_patel_0052/" className="hover:text-pink-500">
+            <a href="https://www.instagram.com/ravi_patel_0052/"
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-pink-500 text-xl">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
-            <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=100010923798968" className="hover:text-blue-500">
+
+            <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=100010923798968" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-blue-500 text-xl">
               <FontAwesomeIcon icon={faFacebookF} />
             </a>
             
