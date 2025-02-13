@@ -5,7 +5,7 @@ import Hero from "../components/Hero"
 const Projects = () => {
   return (
     <><p>kdfhfh</p>
-    <Hero></Hero>
+    
     </>
   )
 }
