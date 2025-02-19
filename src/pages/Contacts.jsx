@@ -33,39 +33,42 @@ const ContactPage = () => {
             {/* Name Input */}
             <div>
               <label className="block text-gray-700 font-medium mb-1" htmlFor="name">
-                Your Name
+                Your Name <span className="text-red-500">*</span>
               </label>
               <input
                 type="text"
                 id="name"
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="Enter your name"
+                required
               />
             </div>
 
             {/* Email Input */}
             <div>
               <label className="block text-gray-700 font-medium mb-1" htmlFor="email">
-                Your Email
+                Your Email <span className="text-red-500">*</span>
               </label>
               <input
                 type="email"
                 id="email"
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="Enter your email"
+                required
               />
             </div>
 
             {/* Message Input */}
             <div>
               <label className="block text-gray-700 font-medium mb-1" htmlFor="message">
-                Your Message
+                Your Message <span className="text-red-500">*</span>
               </label>
               <textarea
                 id="message"
                 rows="3"
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="Enter your message"
+                required
               ></textarea>
             </div>
 
