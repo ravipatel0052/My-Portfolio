@@ -2,9 +2,9 @@ import React from 'react';
 
 const ContactPage = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center py-10">
+    <div className="min-h-screen mt-6 flex flex-col items-center py-8">
       {/* Contact Header */}
-      <h1 className="text-3xl font-bold text-gray-800 mb-6">Contact Us</h1>
+      <h1 className="text-3xl font-bold text-gray-800 mb-6">Contacts</h1>
 
       <div className="container mx-auto px-6 md:px-12 lg:px-24 grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Contact Details */}
@@ -15,19 +15,19 @@ const ContactPage = () => {
           </p>
           <div className="space-y-4">
             <p>
-              <strong>Phone:</strong> +123 456 7890
+              <strong>Phone:</strong> +91 7800285437
             </p>
             <p>
-              <strong>Email:</strong> info@mysite.com
+              <strong>Email:</strong> ravipatel1022001@gmail.com
             </p>
             <p>
-              <strong>Address:</strong> 1234 Street Name, City, Country
+              <strong>Address:</strong> New Ashok Nager, New Delhi, India
             </p>
           </div>
         </div>
 
         {/* Contact Form */}
-        <div className="bg-white shadow-md rounded-lg p-6">
+        <div className="bg-[#A9B5DF] shadow-md rounded-lg p-6">
           <h2 className="text-2xl font-bold mb-4">Send a Message</h2>
           <form className="space-y-4">
             {/* Name Input */}
@@ -63,7 +63,7 @@ const ContactPage = () => {
               </label>
               <textarea
                 id="message"
-                rows="4"
+                rows="3"
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="Enter your message"
               ></textarea>

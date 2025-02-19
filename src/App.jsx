@@ -7,13 +7,13 @@ import Projects from './pages/Projects';
 import Blogs from './pages/Blogs';
 import Contacts from './pages/Contacts';
 import About from './pages/About';
-import Login from './pages/Login';
+import Login from './pages/Resume';
 import './App.css'
 function App() {
 
 
   return (
-    <>
+    <div>
       <Router>
         <Navbar />
         <Routes>
@@ -22,11 +22,11 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/about" element={<About />} />
           <Route path="/contacts" element={<Contacts />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/resume" element={<Login />} />
         </Routes>
         <Footer/>
       </Router>
-    </>
+    </div>
   )
 }
 

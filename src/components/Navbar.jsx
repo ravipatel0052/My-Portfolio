@@ -77,9 +77,9 @@ const Navbar = () => {
           </NavLink>
         </li>
         {/* Resume button inside the dropdown */}
-        {location.pathname !== '/login' && (
+        {location.pathname !== '/resume' && (
           <li>
-            <NavLink to='/login' onClick={handleMenuClick}>
+            <NavLink to='/resume' onClick={handleMenuClick}>
               <button className='px-3 py-2 text-white bg-green-400 rounded-lg text-sm font-semibold 
               hover:bg-gray-600 transition-all shadow-md'>
                 Resume

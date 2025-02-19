@@ -28,7 +28,7 @@ const Footer = () => {
 
         {/* Contact Info */}
         <div className="text-center">
-          <h3 className="text-lg font-semibold mb-3">Contact Us</h3>
+          <h3 className="text-lg font-semibold mb-3">Contacts</h3>
           <p>Email: ravipatel1022001@gmail.com</p>
           <p>Phone: +91 7800285437</p>
           <p>Location: New Ashok Nager, New Delhi, India</p>
@@ -36,7 +36,7 @@ const Footer = () => {
 
         {/* Social Media Links */}
         <div className="text-center">
-          <h3 className="text-lg font-semibold mb-3">Follow Us</h3>
+          <h3 className="text-lg font-semibold mb-3">Follow On</h3>
           <div className="flex justify-center gap-4 text-xl">
 
             <a href="https://www.linkedin.com/in/ravipatel0052" 
