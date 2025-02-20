@@ -5,13 +5,10 @@ import FeatureRow from '../components/FeatureRow';
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-gray-100">
-      {/* Hero Section */}
+    <div>
 
       <Hero></Hero>
-      
-      {/* Features Section */}
-     
+
       <FeatureRow></FeatureRow>
      
       {/* Call to Action Section */}

@@ -3,8 +3,8 @@ import React from "react";
 const FeatureCard = ({ heading, text, image }) => {
   return (
     <div
-      className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center"
-      style={{ height: "60vh", width: "25vw" }}
+      className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center m-10"
+      style={{ height: "50vh"}}
     >
       <img
         src={image}
