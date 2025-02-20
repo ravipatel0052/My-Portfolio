@@ -3,7 +3,7 @@ import React from "react";
 const FeatureCard = ({ heading, text, image }) => {
   return (
     <div
-      className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center m-10"
+      className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center m-5"
       style={{ height: "50vh"}}
     >
       <img
