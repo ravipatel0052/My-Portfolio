@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import FeatureCard from "./FeatureCard";
+import FeatureCard from "./Card";
 import codeSnippets from "../assets/Images/code.png";
 import techBlogs from "../assets/Images/3.jpg";
 import community from "../assets/Images/4.jpg";

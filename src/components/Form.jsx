@@ -3,7 +3,7 @@ import React from 'react';
 const Form = () => {
   return (
     <div className="min-h-screen mt-6 flex items-center justify-center">
-  <div className="bg-[#A9B5DF] shadow-md rounded-lg p-8 w-full max-w-md">
+  <div className="bg-[#A9B5DF] shadow-md rounded-lg p-6 w-full max-w-md">
     <h1 className="text-2xl font-bold text-gray-800 text-center mb-6">
       Resume Download Form
     </h1>
